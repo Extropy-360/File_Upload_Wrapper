@@ -8,6 +8,9 @@ You can install the package directly from the GitHub repository:
 
 ```sh
 pip install git+https://github.com/Extropy-360/File_Upload_Wrapper.git
+```
+
+##Example usage
 
 ```sh
 # Import the FileExchange class
@@ -16,7 +19,7 @@ from file_upload_manager import FileExchange
 # Create an instance of the FileExchange class
 upload_client = FileExchange('https://files.file_exchangesite.com', 'your_username', 'your_password')
 
-# Define the files to upload and the upload path
+# Define the files to upload and the upload path on the exchange where you want your files to end up.
 files_to_upload = ['/path/to/file.txt', 'relative_path.csv']
 upload_path = 'path/on/fileexchange'
 
