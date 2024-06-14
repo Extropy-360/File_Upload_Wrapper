@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Portal-Upload-Wrapper",
+    name="File_Upload_Wrapper",
     version="0.1.0",
     description="A wrapper for uploading files to the portal",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/Extropy-360/Portal-Upload-Wrapper",
+    url="https://github.com/Extropy-360/File_Upload_Wrapper",
     packages=find_packages(),
     install_requires=[
         "requests",
