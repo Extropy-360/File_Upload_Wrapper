@@ -14,7 +14,7 @@ pip install git+https://github.com/Extropy-360/File_Upload_Wrapper.git
 
 ```sh
 # Import the FileExchange class
-from file_upload_manager import FileExchange
+from file_upload_wrapper import FileExchange
 
 # Create an instance of the FileExchange class
 upload_client = FileExchange('https://files.file_exchangesite.com', 'your_username', 'your_password')
