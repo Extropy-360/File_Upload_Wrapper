@@ -9,7 +9,7 @@ You can install the package directly from the GitHub repository:
 ```sh
 pip install git+https://github.com/Extropy-360/File_Upload_Wrapper.git
 
-```
+```sh
 # Import the FileExchange class
 from file_upload_manager import FileExchange
 
